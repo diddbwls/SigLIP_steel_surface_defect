@@ -1,85 +1,81 @@
-**zero-shot 프롬프트 엔지니어링 기반 철강 표면 결함 분류**
+# **Zero-shot 프롬프트 엔지니어링 기반 철강 표면 결함 분류**  
+**Zero-shot Prompt Engineering based Steel Surface Defect Classification**  
+*(SigLIP 기반 모델 + Beam Search + Ensemble을 통한 성능 향상)*
 
-zero-shop prompt engineering based steel surface defect classification
+---
 
-(SigLIP 기반 모델과 Beam Search, Ensemble을 통한 성능 향상 접근)
+## ✅ 기존 Supervised Learning 기반 모델의 한계
+- 새로운 결함 발생 시 라벨링 및 재학습이 필요  
+- 빠른 대응이 어려움 → 실무 적용 시 확장성과 유연성 부족
 
+---
 
+## 🎯 본 프로젝트의 목적
+- **사전학습 멀티모달 모델(SigLIP)** 기반  
+- **도메인 지식을 활용한 프롬프트 조정만으로 분류 가능성 검증**  
+- 라벨링/재학습 없이 **빠른 적용**이 가능한 분류 파이프라인 구축  
+![prompt_goal](https://github.com/user-attachments/assets/2ed844b6-ed62-4e72-bb09-adc2e75ad8a6)
 
-**기존 라벨링, 학습 기반의 supervised-learning기반 모델의 한계**
-- 새로운 결함 등 이슈 발견시 재학습, 라벨링 데이터 확보 등의 이슈로 빠른 대응이 어려움
+---
 
+## 🔍 사용 모델
+- **SigLIP (CLIP 계열 사전학습 멀티모달 모델)**  
+- 이미지-텍스트 유사도 기반 zero-shot 분류  
+![siglip](https://github.com/user-attachments/assets/4b3f0f31-b9e1-40a6-950c-3cf98e512b87)
 
+---
 
-**본 프로젝트의 목적**
-- 도메인 지식을 가지고 있는 상태로 빠르게 프롬프팅하여 결함 분류를 테스트
-- ![image](https://github.com/user-attachments/assets/2ed844b6-ed62-4e72-bb09-adc2e75ad8a6)
+## 🏗️ 아키텍처 구성
+1. 프롬프트 후보군 작성  
+2. **Beam Search (width=3)** 기반 프롬프트 최적화  
+3. **Hard Voting Ensemble** 적용  
+4. Best Prompt 선별  
+5. 최종 SigLIP 추론 및 결과 도출  
+![architecture](https://github.com/user-attachments/assets/3c281ae7-ef99-41f4-99d5-735c55988f56)
 
+---
 
+## 📂 사용 데이터
+- **NEU 데이터셋**  
+  - ISO 7788:2021 기준 5개 클래스  
+    - *rolled-in scale*, *pitted surface*, *scratches*, *patches*, *crazing*  
+- 출처: [Kaggle NEU Dataset](https://www.kaggle.com/datasets/kaustubhdikshit/neu-surface-defect-database)  
+![neu1](https://github.com/user-attachments/assets/ac9141fa-5fff-4f25-859c-f77099f4f08b)  
+![neu2](https://github.com/user-attachments/assets/8c400bd2-099e-46a0-a546-6d79db345b11)
 
+---
 
-**사용 모델**
-CLIP기반의 사전학습 멀티모달 모델 SigLIP
-![image](https://github.com/user-attachments/assets/4b3f0f31-b9e1-40a6-950c-3cf98e512b87)
+## ✍️ 프롬프트 작성 예시
+(도메인 지식을 기반으로 다양한 시도)  
+![p1](https://github.com/user-attachments/assets/3541df2a-6c84-4bf7-ad03-2d1621ec657b)  
+![p2](https://github.com/user-attachments/assets/b4dc6b16-6f61-4219-b763-abbf24c45418)  
+![p3](https://github.com/user-attachments/assets/d1212746-62b3-4a22-81f0-ca820d3da341)  
+![p4](https://github.com/user-attachments/assets/509f7130-a810-4c93-9478-6e7b46937a87)  
+![p5](https://github.com/user-attachments/assets/e759491d-6e4f-4d2b-9f4f-ce35b66d97f9)  
+![p6](https://github.com/user-attachments/assets/24470f60-7a1f-46fe-a01b-a4604099f40b)
 
+---
 
+## 📊 실험 결과
 
+### ✅ Train Set (5 클래스, 총 1,500장)
+![train_result](https://github.com/user-attachments/assets/ea7e801b-4dd8-4b71-a3a3-7e9fcb326f15)
 
-**본 프로젝트의 아키텍쳐**
-- 프롬프트 작성
-- beam search (width=3) 및 SigLIP 수행
-- ensemble(hard voting)
-- best prompt 도출
-- Final SigLIP 및 최종 분류 결과 도출
-![image](https://github.com/user-attachments/assets/3c281ae7-ef99-41f4-99d5-735c55988f56)
+### ✅ Test Set (5 클래스, 총 300장)
+- **Zero-shot + Prompt Engineering** 만으로 도메인 특화 분류 성능 확보  
+- Beam Search + Ensemble 설계만으로도 기존 supervised 모델과 경쟁 가능  
+![test_result](https://github.com/user-attachments/assets/0e61f0dd-8b8f-4e85-ad95-b7840f4a6d2c)
 
+---
 
+## ⚠️ 한계점
+- 일부 클래스 (*patches*)에서 분류 성능 저조  
+- 단일 프롬프트보단 **프롬프트 파일 집합** 기반 접근 필요  
+- **Beam Search 시 계산량 증가**: 각 프롬프트 조합마다 추론 필요  
+- **설명 가능성 부족**: 특정 프롬프트가 왜 효과적인지 설명 어려움
 
+---
 
-**사용 데이터**
-- NEU data set중, ISO 7788-2021 결함 분류에 속한 5가지 클래스(rolled-in scale, pitted_surface, scratches, patches, crazing)를 사용
-- https://www.kaggle.com/datasets/kaustubhdikshit/neu-surface-defect-database
-![image](https://github.com/user-attachments/assets/ac9141fa-5fff-4f25-859c-f77099f4f08b)
-![image](https://github.com/user-attachments/assets/8c400bd2-099e-46a0-a546-6d79db345b11)
-
-
-
-
-**프롬프트 작성 예시**
-![image](https://github.com/user-attachments/assets/3541df2a-6c84-4bf7-ad03-2d1621ec657b)
-![image](https://github.com/user-attachments/assets/b4dc6b16-6f61-4219-b763-abbf24c45418)
-![image](https://github.com/user-attachments/assets/d1212746-62b3-4a22-81f0-ca820d3da341)
-![image](https://github.com/user-attachments/assets/509f7130-a810-4c93-9478-6e7b46937a87)
-![image](https://github.com/user-attachments/assets/e759491d-6e4f-4d2b-9f4f-ce35b66d97f9)
-![image](https://github.com/user-attachments/assets/24470f60-7a1f-46fe-a01b-a4604099f40b)
-
-
-
-
-**결과 - train set(5개 클래스, 1,500장)**
-![image](https://github.com/user-attachments/assets/ea7e801b-4dd8-4b71-a3a3-7e9fcb326f15)
-
-
-
-
-**결과 - test set(5개 클래스, 300장)**
-- zero-shot 모델 + 프롬프트 엔지니어링만으로 도메인 특화 분류를 수행
-- 학습 없이도 beam search, ensemble 설계를 통해 기존 supervised 방식 대비 경쟁력 확보
-![image](https://github.com/user-attachments/assets/0e61f0dd-8b8f-4e85-ad95-b7840f4a6d2c)
-
-
-
-
-**한계**
-- test set에서 일부 결과가 잘 나오지 않았지만 추후 greedy search 등 최적 프롬프트를 찾는다면 성능 개선 가능성 존재
-- 일부 class (patches)에서는 성능이 잘 나오지 않음 : 단일 프롬프트가 아닌 프롬프트 파일로 존재해야 의미가 있다는 한계
-- 계산 비용(연산량) 증가 : 빔서치 과정에서 프롬프트 조합별로 SigLIP을 실행해야 함
-- 설명 가능성 부족 : 왜 특정 프롬프트가 더 잘 작동하는지에 대한 설명력이 부족함
-
-
-
-
-**향후 연구**
-- beam search의 width, 프롬프트 개수 등 파라미터에 따라 결과가 달라질 수 있으므로 최적 하이퍼 파라미터를 찾는 실험이 필요
-
-
+## 🔬 향후 연구 방향
+- **Beam Search Width**, 프롬프트 개수 등 **하이퍼파라미터 최적화**  
+- Prompt Set의 구조화 및 Greedy Search 기반 실험 추가
