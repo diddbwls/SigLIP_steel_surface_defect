@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9963cc45-1cea-48ca-8c05-ba64636cb696)**zero-shot 프롬프트 엔지니어링 기반 철강 표면 결함 분류**
+**zero-shot 프롬프트 엔지니어링 기반 철강 표면 결함 분류**
 
 zero-shop prompt engineering based steel surface defect classification
 
