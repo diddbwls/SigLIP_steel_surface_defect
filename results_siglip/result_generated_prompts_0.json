@@ -1,0 +1,5298 @@
+{
+  "crazing": {
+    "accuracy": 65.33,
+    "avg_confidence": 52.63,
+    "correct": 196,
+    "total": 300
+  },
+  "patches": {
+    "accuracy": 95.67,
+    "avg_confidence": 80.85,
+    "correct": 287,
+    "total": 300
+  },
+  "pitted_surface": {
+    "accuracy": 0.0,
+    "avg_confidence": 77.47,
+    "correct": 0,
+    "total": 300
+  },
+  "rolled-in_scale": {
+    "accuracy": 35.0,
+    "avg_confidence": 49.81,
+    "correct": 105,
+    "total": 300
+  },
+  "scratches": {
+    "accuracy": 11.67,
+    "avg_confidence": 63.19,
+    "correct": 35,
+    "total": 300
+  },
+  "overall_accuracy": 41.53,
+  "overall_avg_confidence": 64.79,
+  "misclassified": [
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_49.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3901,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_219.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3609,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_231.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5332,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_147.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4398,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_153.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4078,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_191.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5183,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_152.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6219,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_230.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.3788,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_74.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.3917,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_76.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4478,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_178.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.397,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_144.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8432,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_187.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4524,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_145.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4433,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_151.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.4777,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_179.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4608,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_77.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4591,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_98.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8637,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_73.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3786,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_67.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4688,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_223.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.5741,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_237.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4834,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_182.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5107,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_236.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5678,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_222.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5244,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_66.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3703,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_195.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.2887,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_157.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3989,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_143.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6855,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_209.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4011,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_235.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.3936,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_16.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4412,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_246.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.3224,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_285.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3525,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_124.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.585,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_130.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.4091,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_253.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.686,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_245.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5699,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_133.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.4048,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_127.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5095,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_126.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6476,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_278.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5004,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_28.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5357,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_10.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3364,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_283.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.49,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_297.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.609,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_123.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.408,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_296.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4318,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_282.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5208,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_255.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.365,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_243.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3794,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_280.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3735,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_256.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.4197,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_12.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.649,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_139.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.319,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_104.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5542,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_266.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.451,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_36.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4925,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_34.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5592,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_20.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4714,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_258.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4323,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_112.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.337,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_35.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4094,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_31.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3912,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_25.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5291,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_19.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.271,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_248.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.3084,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_18.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3633,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_24.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4149,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_30.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4877,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_276.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6142,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_262.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5579,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_289.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3735,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_128.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5165,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_288.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.3286,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_277.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.445,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_54.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4271,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_210.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.4237,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_204.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3774,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_173.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.3226,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_55.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3665,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_82.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4087,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_43.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4373,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_207.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6249,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_171.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.2833,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_164.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4804,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_206.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4015,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_42.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3513,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_56.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5925,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_95.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4922,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_91.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.341,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_52.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4434,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_161.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5276,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_53.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4941,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_90.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.3218,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_45.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4439,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_215.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.604,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_229.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3959,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_163.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6278,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_177.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.548,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_162.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.568,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_200.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.651,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_214.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.4393,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/crazing/crazing_50.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4512,
+      "true_class": "crazing"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/patches/patches_162.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5145,
+      "true_class": "patches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/patches/patches_30.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3466,
+      "true_class": "patches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/patches/patches_81.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.6072,
+      "true_class": "patches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/patches/patches_106.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4485,
+      "true_class": "patches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/patches/patches_278.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.4751,
+      "true_class": "patches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/patches/patches_180.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5284,
+      "true_class": "patches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/patches/patches_14.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4551,
+      "true_class": "patches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/patches/patches_169.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4019,
+      "true_class": "patches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/patches/patches_232.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3802,
+      "true_class": "patches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/patches/patches_178.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7213,
+      "true_class": "patches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/patches/patches_146.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.5801,
+      "true_class": "patches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/patches/patches_3.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4915,
+      "true_class": "patches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/patches/patches_153.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.494,
+      "true_class": "patches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_13.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9828,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_228.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.758,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_214.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.897,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_200.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9607,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_162.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9251,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_176.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6617,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_189.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5484,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_188.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9853,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_177.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6514,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_163.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9542,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_201.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5644,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_215.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5756,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_229.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6966,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_12.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8617,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_38.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9781,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_10.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8883,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_203.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6261,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_217.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5969,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_149.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8949,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_175.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4946,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_161.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5025,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_160.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9312,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_174.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5489,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_148.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8644,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_216.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5281,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_202.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6104,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_11.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9771,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_39.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9566,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_15.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8001,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_29.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8465,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_206.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.523,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_212.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8013,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_170.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5133,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_164.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8237,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_158.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9709,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_159.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9592,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_165.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7621,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_171.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.84,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_213.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9213,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_207.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8638,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_28.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7419,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_14.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8629,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_16.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6568,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_211.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6469,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_205.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4624,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_239.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6149,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_9.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7842,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_167.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.793,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_173.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7589,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_198.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5713,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_199.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3665,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_172.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5231,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_166.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7582,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_8.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7331,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_238.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5543,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_204.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.621,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_210.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7506,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_17.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6001,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_58.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7719,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_64.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9668,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_70.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7126,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_277.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8776,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_263.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7674,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_288.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.799,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_129.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7538,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_101.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9337,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_115.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8685,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_114.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7199,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_100.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7203,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_128.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8165,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_289.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7302,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_262.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6753,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_276.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8784,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_71.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5721,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_65.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9059,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_59.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4623,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_73.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.786,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_67.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9907,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_98.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8349,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_248.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6781,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_260.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.685,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_274.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8177,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_300.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9035,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_116.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8745,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_102.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.513,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_103.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9921,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_117.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9397,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_275.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7585,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_261.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8798,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_249.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6705,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_99.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7399,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_66.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.788,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_72.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7283,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_76.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8884,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_62.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9582,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_89.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8444,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_265.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8852,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_271.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6824,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_259.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8779,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_113.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9298,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_107.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6765,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_106.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8923,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_112.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9676,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_258.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7547,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_270.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7157,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_264.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9109,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_88.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4775,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_63.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9285,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_77.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5998,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_61.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9671,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_75.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.6648,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_49.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9465,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_272.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5781,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_266.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6326,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_299.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6669,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_104.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6694,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_110.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.5609,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_138.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.4445,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_139.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7456,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_111.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9257,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_105.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4994,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_298.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9498,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_267.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9248,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_273.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5544,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_48.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9538,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_74.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8449,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_60.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9084,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_79.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.857,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_45.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9173,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_51.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8332,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_86.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9848,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_92.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8214,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_256.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8147,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_242.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6478,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_295.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9299,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_281.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9367,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_108.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6592,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_120.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7961,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_134.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7577,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_135.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4817,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_121.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.929,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_109.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9314,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_280.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6397,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_294.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.91,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_243.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8925,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_257.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7461,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_93.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9298,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_87.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9306,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_50.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7842,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_44.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9494,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_78.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5071,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_52.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8748,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_46.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.679,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_91.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9348,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_85.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9941,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_269.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.865,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_241.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8855,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_255.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9156,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_282.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5709,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_296.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.456,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_137.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9521,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_123.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9803,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_122.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7969,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_136.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.919,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_297.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.788,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_283.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8205,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_254.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7599,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_240.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8933,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_268.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8872,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_84.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9803,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_90.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7374,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_47.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7951,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_53.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6673,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_57.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9758,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_43.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.921,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_94.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9341,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_80.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.4763,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_244.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5738,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_250.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7549,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_278.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8326,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_287.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6017,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_293.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8853,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_132.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5566,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_126.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4563,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_127.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8296,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_133.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7119,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_292.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9433,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_286.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9901,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_279.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9095,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_251.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.835,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_245.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5774,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_81.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.7056,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_95.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9644,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_42.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9885,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_56.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9734,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_40.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.4985,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_54.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8593,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_68.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8507,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_83.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.854,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_97.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7199,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_253.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5369,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_247.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9467,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_290.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5918,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_284.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.651,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_125.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9901,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_131.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5341,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_119.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8357,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_118.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7847,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_130.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8432,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_124.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9784,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_285.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8897,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_291.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6816,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_246.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7689,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_252.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5463,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_96.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5868,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_82.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8579,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_69.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5783,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_55.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.4837,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_41.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.6517,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_26.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.5161,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_32.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9167,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_209.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6571,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_235.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9574,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_221.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5996,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_5.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7326,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_143.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6229,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_157.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9481,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_180.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5322,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_194.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9146,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_195.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8489,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_181.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9282,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_156.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.643,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_142.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9172,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_4.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.695,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_220.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5929,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_234.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8317,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_208.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9669,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_33.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5403,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_27.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.89,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_19.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.5348,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_31.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9564,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_25.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6908,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_222.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7618,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_236.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8928,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_6.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4687,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_168.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9801,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_154.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.865,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_140.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.4602,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_197.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8856,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_183.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7338,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_182.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9932,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_196.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9745,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_141.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7807,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_155.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9433,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_169.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8926,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_7.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6607,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_237.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9673,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_223.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4661,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_24.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8735,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_30.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6961,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_18.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.5675,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_34.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5771,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_20.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.5041,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_227.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.735,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_233.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9791,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_3.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8239,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_151.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6706,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_145.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.978,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_179.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7959,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_192.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8829,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_186.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4478,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_187.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7207,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_193.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8617,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_178.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7991,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_144.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9644,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_150.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5989,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_2.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4568,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_232.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9864,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_226.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6031,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_21.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7058,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_35.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8064,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_23.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9381,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_37.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9394,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_230.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9098,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_224.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6591,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_218.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8499,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_146.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7621,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_152.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9432,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_185.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9694,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_191.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9409,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_190.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7287,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_184.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8151,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_153.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9846,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_147.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8214,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_1.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6942,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_219.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8845,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_225.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4931,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_231.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8189,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_36.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8915,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/pitted_surface/pitted_surface_22.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.7184,
+      "true_class": "pitted_surface"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_239.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3172,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_205.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3757,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_18.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4844,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_24.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.4522,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_173.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3086,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_167.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4901,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_198.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5127,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_199.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7082,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_172.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5643,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_25.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.376,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_19.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4877,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_210.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8222,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_212.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4805,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_206.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3007,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_164.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3922,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_171.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5267,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_165.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5157,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_159.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5748,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_213.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4496,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_217.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4284,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_203.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3923,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_22.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4508,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_36.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3875,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_161.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.579,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_149.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3853,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_148.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.348,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_174.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7303,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_160.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4885,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_37.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4841,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_23.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.2981,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_202.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.723,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_216.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4489,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_200.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6057,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_214.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4077,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_35.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5195,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_21.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5489,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_176.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4118,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_162.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6585,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_189.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5139,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_188.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5481,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_163.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6243,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_177.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3693,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_20.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4756,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_229.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5124,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_215.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6885,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_201.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6112,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_266.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3665,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_299.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5337,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_138.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7245,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_104.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.474,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_46.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4475,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_298.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8075,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_273.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7145,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_267.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5611,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_91.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4091,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_259.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4134,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_271.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5924,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_93.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7342,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_78.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7557,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_44.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3936,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_50.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4316,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_107.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.39,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_45.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3914,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_79.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4268,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_92.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7526,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_270.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3796,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_258.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5074,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_82.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7106,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_274.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8402,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_260.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4604,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_96.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3301,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_116.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4666,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_83.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4553,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_263.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.2886,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_81.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7482,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_56.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6069,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_42.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5434,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_288.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4106,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_129.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4747,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_100.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.388,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_114.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.419,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_289.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4663,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_43.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3592,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_57.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.325,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_276.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4727,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_80.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4345,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_94.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4748,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_262.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7531,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_99.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.3575,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_247.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4532,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_253.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7592,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_284.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.402,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_72.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3414,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_66.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4199,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_131.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6763,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_125.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4166,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_124.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5067,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_130.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.415,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_67.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3569,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_291.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4736,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_285.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3517,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_73.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5214,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_252.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4767,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_250.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4344,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_244.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4856,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_59.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5056,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_65.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3974,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_71.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5512,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_126.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4875,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_132.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.3713,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_133.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6879,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_286.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5786,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_292.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5436,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_64.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.3724,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_58.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.556,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_245.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4239,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_251.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.643,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_255.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5354,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_241.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4007,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_60.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7946,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_282.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3517,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_74.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3697,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_49.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7162,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_283.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3994,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_75.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6513,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_297.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3896,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_268.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3751,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_256.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4033,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_77.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6976,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_63.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5064,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_108.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4403,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_109.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5596,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_135.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5596,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_62.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4957,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_280.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5298,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_89.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4509,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_257.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4868,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_243.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3525,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_3.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6327,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_218.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5065,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_39.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4362,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_152.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3441,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_146.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3019,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_191.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4558,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_185.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4167,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_184.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4673,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_190.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.359,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_147.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6699,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_153.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4568,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_10.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5433,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_38.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4466,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_227.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4288,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_12.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4455,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_179.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4659,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_145.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4718,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_151.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7505,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_186.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5874,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_192.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.72,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_193.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5347,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_187.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3866,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_150.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6464,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_144.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.709,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_178.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3768,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_13.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4587,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_226.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5014,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_5.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6417,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_17.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5037,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_140.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.483,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_154.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5928,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_168.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5366,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_183.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6073,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_196.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3968,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_182.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3789,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_155.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6841,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_141.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7434,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_16.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3846,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_223.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5495,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_6.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4424,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_221.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5189,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_209.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6285,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_28.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4376,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_157.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5609,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_143.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5839,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_194.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3678,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_180.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4169,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_181.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8362,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_195.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7004,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_142.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4205,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_156.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6851,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_29.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6422,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_15.jpg",
+      "predicted_class": "scratches",
+      "confidence": 0.5003,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_208.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5474,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_234.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4134,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_220.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3709,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/rolled-in_scale/rolled-in_scale_7.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7287,
+      "true_class": "rolled-in_scale"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_225.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6419,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_219.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5627,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_153.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3891,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_147.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7764,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_190.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6115,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_184.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.6879,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_11.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8664,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_10.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6089,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_185.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5374,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_38.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7697,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_191.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7991,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_146.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7066,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_152.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4605,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_218.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6654,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_230.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3667,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_224.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4725,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_226.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5403,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_144.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3965,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_150.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4034,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_178.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6161,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_187.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.829,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_193.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.891,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_12.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8431,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_13.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6281,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_192.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6308,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_186.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8848,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_179.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4203,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_151.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4722,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_145.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3054,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_227.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4437,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_233.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6918,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_223.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6412,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_141.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9073,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_155.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4485,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_17.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.679,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_182.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7069,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_183.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8101,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_16.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3814,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_154.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7138,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_140.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9083,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_168.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6031,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_222.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5016,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_236.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5421,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_208.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5653,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_220.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5317,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_156.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5711,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_142.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5075,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_14.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6011,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_195.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.2659,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_181.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3586,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_28.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.553,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_29.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8634,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_180.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4667,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_194.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5544,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_15.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5765,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_143.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4701,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_157.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6421,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_235.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5216,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_209.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7825,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_246.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.4481,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_5.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6418,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_252.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4531,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_285.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5107,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_291.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4775,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_99.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3552,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_130.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4462,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_124.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7971,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_118.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8034,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_66.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7581,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_72.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4967,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_67.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4296,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_125.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8819,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_131.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9116,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_98.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7164,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_290.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4012,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_284.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5006,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_253.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8184,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_4.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9286,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_247.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8927,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_251.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5651,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_245.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9128,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_6.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8321,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_279.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5135,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_292.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7902,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_286.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3519,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_127.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.3905,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_133.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4318,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_59.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9818,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_65.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9578,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_64.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4842,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_58.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9318,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_132.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3673,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_126.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6897,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_287.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6851,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_278.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.898,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_7.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7041,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_244.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4485,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_250.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3946,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_268.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5486,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_254.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.86,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_3.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7752,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_240.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4258,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_297.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5187,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_283.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5452,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_122.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.965,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_136.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9415,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_74.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8164,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_60.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7718,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_48.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5012,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_49.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3568,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_61.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.56,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_75.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6091,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_137.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8311,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_123.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9856,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_282.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5444,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_296.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6575,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_241.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.502,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_2.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5296,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_255.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5844,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_269.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6536,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_243.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4548,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_257.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7402,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_280.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5248,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_294.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9873,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_109.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8498,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_135.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7616,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_88.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5401,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_121.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9559,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_63.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7713,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_77.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6203,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_76.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5021,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_62.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9029,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_120.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8819,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_134.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.845,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_108.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6885,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_295.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9454,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_281.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6312,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_256.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8399,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_242.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.82,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_267.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7146,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_273.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.61,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_298.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.945,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_111.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.938,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_105.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.4367,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_84.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6027,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_90.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4354,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_139.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9394,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_47.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3743,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_53.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4992,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_52.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6558,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_46.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.568,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_138.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9189,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_91.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.5568,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_85.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6622,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_104.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6275,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_110.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7961,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_272.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5307,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_266.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5302,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_270.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8106,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_264.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5016,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_258.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5774,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_106.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.53,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_112.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.799,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_93.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8798,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_87.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9084,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_78.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3893,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_50.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7711,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_45.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9399,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_51.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5953,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_79.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5857,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_86.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4285,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_92.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4714,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_113.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6656,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_107.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.537,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_265.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4759,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_271.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.875,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_249.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3954,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_275.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.658,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_261.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.437,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_96.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6176,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_103.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9204,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_117.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4313,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_55.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6583,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_41.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6181,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_69.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4404,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_300.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7237,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_68.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5522,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_40.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5729,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_54.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8527,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_102.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6745,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_83.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6035,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_97.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6119,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_274.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4759,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_248.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4978,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_9.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5437,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_262.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5491,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_276.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5251,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_289.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6677,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_128.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7623,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_95.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8891,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_114.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4087,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_100.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.54,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_42.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8995,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_56.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4556,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_57.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9189,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_101.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9077,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_115.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.3182,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_94.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.3395,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_129.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.7039,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_80.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6396,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_288.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7256,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_277.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5748,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_263.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6674,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_8.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.682,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_204.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.507,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_210.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4957,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_238.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7582,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_172.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.519,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_166.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4943,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_18.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7255,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_24.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9793,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_199.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5326,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_30.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6936,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_31.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7063,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_25.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4472,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_19.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9157,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_239.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4207,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_211.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.3871,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_205.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7179,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_213.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.806,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_207.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7642,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_165.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6634,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_159.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4772,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_33.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5082,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_27.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8932,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_26.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.9411,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_32.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5078,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_158.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7877,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_164.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.4497,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_206.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.852,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_212.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7681,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_216.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8207,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_148.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7482,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_160.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9383,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_36.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7803,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_22.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.5257,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_23.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8959,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_175.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5331,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_161.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7059,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_149.jpg",
+      "predicted_class": "rolled-in_scale",
+      "confidence": 0.3964,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_217.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7609,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_229.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7027,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_201.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.4046,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_215.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8199,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_177.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.6317,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_163.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.7179,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_188.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8549,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_21.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.6313,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_35.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.8298,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_34.jpg",
+      "predicted_class": "crazing",
+      "confidence": 0.7195,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_189.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9144,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_162.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8343,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_176.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.5402,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_214.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.9048,
+      "true_class": "scratches"
+    },
+    {
+      "file": "/Users/hamin/Desktop/code/clip/data/neu_5/scratches/scratches_228.jpg",
+      "predicted_class": "patches",
+      "confidence": 0.8169,
+      "true_class": "scratches"
+    }
+  ]
+}

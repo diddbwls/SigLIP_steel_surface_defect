@@ -1,0 +1,37 @@
+{
+  "crazing": [
+    "A photo of a large steel surface presenting a network of fine, hair-thin cracks. The cracks appear to be in a delicate, web-like pattern, crossing and intersecting each other due to thermal stress.",
+    "A photo of a steel structure under bright light, where you can see minute, superficial cracks radiating across its surface. The cracks are so fine that they look like a spider has spun a web on the steel.",
+    "A photo of a metallic object that has been subjected to extreme heat. The surface of the metal shows a subtle network of fine cracks, resembling a dry riverbed, indicative of crazing.",
+    "A photo of a steel beam where the surface appears to be covered in a fine lace of intricate cracks. The pattern of the cracks suggests that they have occurred due to thermal stress, characteristic of crazing.",
+    "A photo of a large piece of steel, where the surface is marked with a complex array of minute, superficial cracks. The light reflecting off the cracks gives the surface a unique, cracked texture, illustrating the phenomenon of crazing."
+  ],
+  "patches": [
+    "A photo of a large steel surface, reflecting light unevenly due to the presence of discolored patches. These patches exhibit an irregular texture, disrupting the smooth, shiny finish of the steel, and giving the surface a worn and damaged appearance.",
+    "A photo of a steel sheet with rough areas that contrast against the otherwise smooth surface. The patches are discolored, ranging from dark grey to brown, standing out against the typical shiny silver of the steel.",
+    "A photo of a steel object, its polished silver surface marred by irregular, discolored patches. The patches have a rough, uneven texture, appearing as if they have been carelessly etched onto the surface, creating a visual representation of imperfection.",
+    "A photo of a sheet of steel, its glossy surface disrupted by rough patches scattered randomly across. These patches are discolored, ranging from dull grey to rusty brown, standing in stark contrast to the steel's usual lustrous silver finish.",
+    "A photo of a steel panel, its mirror-like finish interrupted by a series of irregular patches. These patches have a discolored and rough texture, contrasting with the otherwise smooth and shiny surface of the steel, and giving an impression of surface defects."
+  ],
+  "pitted_surface": [
+    "A photo of a large metal sheet, once smooth and shiny, now marred by numerous small, irregular holes. The surface has succumbed to corrosion, with countless pits dotting the material, each pit a testament to the slow but relentless attack of the elements.",
+    "A photo of a weather-beaten steel plate. The surface showcases the testament of time and harsh conditions - numerous small holes or pits caused by corrosion. The once sleek and shiny surface now appears coarse and rough, bearing the brunt of the natural elements.",
+    "A photo depicting a close-up of a metal surface that has fallen victim to the ravages of corrosion. The surface is littered with tiny, round pits, each a testament to the corrosive power of time and weather. The light reflects off the uneven surface, highlighting the extent of the damage.",
+    "A photo of an iron sheet, once strong and unyielding, now pockmarked with small holes or pits. The surface appears as though it's been nibbled by time, each pit a proof of the corrosive power of nature. The harsh light falling on it accentuates the rugged texture of the corroded surface.",
+    "A photo highlighting the harsh reality of corrosion on a metal surface. Countless small pits, scattered haphazardly across the surface, tell a tale of relentless weathering. The once flat, reflective surface now bears the brunt of time with its pitted, rugged texture."
+  ],
+  "rolled-in_scale": [
+    "A photo of a large sheet of hot-rolled steel, its smooth surface marred by areas where oxide scale has been unintentionally pressed into the metal, creating irregular patterns and disrupting the otherwise uniform appearance.",
+    "A photo depicting a detailed close-up of a hot-rolled steel surface. The image highlights the distinctive blemishes caused by rolled-in scale; the oxide scale has been forcefully embedded into the steel, creating a rough and uneven texture in contrast to the surrounding smoothness.",
+    "A photo showcasing a vast expanse of hot-rolled steel. The surface is marked by patches where oxide scale has been rolled into the steel, causing visible defects. The scale marks appear as intricate, random patterns, disrupting the steel's otherwise sleek surface.",
+    "A photo of a piece of hot-rolled steel, its surface exhibiting the unique defect of rolled-in scale. The oxide scale has been pressed into the surface, creating dark, irregular scars across the otherwise pristine metallic surface.",
+    "A photo magnifying a hot-rolled steel surface. The image focuses on the defect of rolled-in scale, where patches of oxide scale have been pressed into the steel. The resulting blemishes create a stark contrast with the surrounding smooth, gleaming metal."
+  ],
+  "scratches": [
+    "A photo of a steel sheet bathed in bright, overhead light, revealing a cluster of linear abrasions running diagonally across its surface. The scratches appear to be fresh, disrupting the otherwise shiny, metallic texture with jagged interruptions.",
+    "A photo of a large, stainless-steel sheet under natural daylight. The surface bears the marks of parallel scratches, like an unintentional piece of abstract art, contrasting sharply against the polished, untouched areas.",
+    "A photo of a thick sheet of steel, seen under dim lighting, with an intricate web of scratches etched into its surface. The scratches are deep, forming uneven grooves that catch the light and cast tiny shadows.",
+    "A photo of a freshly produced steel sheet, its smooth, reflective surface marred by a series of long, thin scratches. The defects crisscross one another, creating a chaotic pattern that disrupts the sheet's metallic sheen.",
+    "A photo of an industrial-grade steel sheet illuminated under the harsh white light of a factory. Sharp, linear abrasions are scattered about its surface, each one standing out like a scar against the pristine steel backdrop."
+  ]
+}

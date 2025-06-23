@@ -1,0 +1,37 @@
+{
+  "crazing": [
+    "1. A photo of a large sheet of steel, its once smooth surface now marred by a web of fine, intricate cracks. The silvery metal glows under the light, revealing the subtle lines of crazing that trace across its surface, a testament to thermal stress.",
+    "2. A photo of a close-up view of a steel beam that has been subjected to extreme heat. The surface shows a beautiful, almost artistic, pattern of crazing. The fine cracks sprawl across the surface like a network of veins, a stark reminder of the metal's thermal stress.",
+    "3. A photo of a steel structure, its surface marred by an intricate network of crazing. The fine cracks, like delicate spiderwebs, spread across the once pristine metal surface, a silent witness to the thermal stress it has endured.",
+    "4. A photo of a piece of steel that has been subjected to thermal stress. The resulting crazing - a complex pattern of fine cracks - snakes across its surface. The light reflects off the irregular surface, highlighting the extent of the damage.",
+    "5. A photo of a large steel panel, the surface of which is covered in a delicate lattice of fine cracks. The crazing, the result of thermal stress, gives the surface a textured, almost organic appearance, a stark contrast to the original smoothness of the steel."
+  ],
+  "patches": [
+    "1. A photo of a large piece of steel, its otherwise smooth and shiny surface marred by a smattering of rough, discolored patches. The patches range from a light brown to a dark rust color, contrasting starkly with the metallic sheen of the untouched steel.",
+    "2. A photo depicting a close-up view of a steel surface, where numerous irregular patches disrupt the uniform appearance. The patches exhibit an array of hues from darkish gray to rust, providing a stark contrast to the sleek silver of the surrounding area.",
+    "3. An image showcasing a steel surface that has been blemished by a series of irregular patches. Each patch looks rough and discolored, varying in size and shape, and stands out against the rest of the steel's shiny, smooth surface.",
+    "4. A photograph capturing a steel object, its polished surface interrupted by an uneven spread of patches. The patches present a rough texture and a discoloration that ranges from a light faded color to a darker, more rust-like hue.",
+    "5. A close-up image of a steel surface, marred by a sporadic scattering of rough, discolored patches. The patches, varying in size and shape, disrupt the steel's otherwise smooth and shiny texture, standing out like scars on a polished face."
+  ],
+  "pitted_surface": [
+    "1. A photo of a rusted metal sheet, its once smooth surface now marred and scarred with countless small, corrosion-induced holes. These pits vary in size, some barely visible to the naked eye and others larger, creating a rough, textured appearance that disrupts the sheet's uniformity.",
+    "2. A photo of a weather-beaten metallic surface showing the ravages of time. The harsh environmental conditions have caused the metal to corrode, leaving a multitude of small pits scattered across the once gleaming surface. Each pit, a tiny testament to the relentless power of corrosion.",
+    "3. A photo of a corroded iron surface with a pockmarked appearance. The surface, once flat and shiny, is now a battlefield of small, rounded pits, each a result of relentless corrosion. The pits vary in size, creating a unique pattern of damage across the sheet's surface.",
+    "4. A photo of a metal surface that's been eaten away by corrosion. The surface is riddled with tiny pits, each a cavity produced by the corrosive forces. The pits, varying in size and depth, create an irregular, rough texture that contrasts sharply with the sheet's original smoothness.",
+    "5. A photo of a piece of metal bearing the scars of corrosion. The surface, once uniform and smooth, is now spotted with numerous small holes or pits. Each pit is a testament to the destructive power of corrosion, creating a rough, almost lunar landscape on the metal sheet's surface."
+  ],
+  "rolled-in_scale": [
+    "1. A photo of a large sheet of hot-rolled steel with distinctive marks of oxide scale defects. They appear as dark blemishes, giving the surface an uneven, rustic look. The scale is firmly embedded into the steel, looking as though it has been pressed in forcefully, interrupting the otherwise smooth metallic surface.",
+    "2. A photo capturing the close-up details of a hot-rolled steel surface marred by rolled-in scale. The defects are clearly visible; dark, oxidized patches, seemingly pushed into the steel, disrupting the uniformity of the silvery, lustrous surface.",
+    "3. A photo that shows a broad, hot-rolled steel sheet under bright light. The light reveals the presence of rolled-in scale defects; irregular, darkened areas where the oxide scale has become one with the steel surface, the result of intense pressure during the rolling process.",
+    "4. A photo depicting a piece of hot-rolled steel placed in a professional manufacturing setting. The steel surface is marred with rolled-in scale; the darkened, oxidized sections are clearly visible, appearing as though they were pressed into the steel, contrasting with the normal shiny surface.",
+    "5. A photo focusing on a metallic surface of hot-rolled steel, where one can clearly see the tell-tale signs of rolled-in scale. The steel, typically smooth and lustrous, has patches of dark, oxidized material embedded into it, a clear result of these defects being forcefully impressed upon the steel during the rolling process."
+  ],
+  "scratches": [
+    "1. A photo of a shiny steel sheet under bright lighting, marred by a series of long, jagged scratches. These linear abrasions crisscross on the surface, disrupting the otherwise smooth and reflective material, making a stark contrast against the pristine areas.",
+    "2. A photo of a large steel sheet, freshly produced, with a glaring defect visible. A collection of thin, straight scratches are scattered across the sheet, creating a pattern of damage that clearly indicates abrasion against the otherwise unblemished steel.",
+    "3. A photo of a steel sheet with a glossy finish, marred by a cluster of fine scratches. They run in parallel lines, distorting the sheet's reflective quality. The scratches appear to be recent, as they still hold tiny steel particles within.",
+    "4. A photo of a polished steel sheet with a mirror-like surface. Its pristine appearance is disrupted by a series of scratches that cut across diagonally. The linear marks are deep and visible, obscuring the perfect reflection of the surrounding environment.",
+    "5. A photo of a large, cold-rolled steel sheet with a brushed finish. Upon closer inspection, a series of irregular scratches disrupts the uniform lines of the brushed pattern. The abrasions are quite distinct, differing in depth and length, marring the otherwise perfect surface."
+  ]
+}
