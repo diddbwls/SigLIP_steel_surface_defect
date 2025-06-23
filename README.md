@@ -1,9 +1,13 @@
 zero-shot 프롬프트 엔지니어링 기반 철강 표면 결함 분류
+
 zero-shop prompt engineering based steel surface defect classification
+
 (SigLIP 기반 모델과 Beam Search, Ensemble을 통한 성능 향상 접근)
+
 
 기존 라벨링, 학습 기반의 supervised-learning기반 모델의 한계
 - 새로운 결함 등 이슈 발견시 재학습, 라벨링 데이터 확보 등의 이슈로 빠른 대응이 어려움
+
 
 본 프로젝트의 목적
 - 도메인 지식을 가지고 있는 상태로 빠르게 프롬프팅하여 결함 분류를 테스트
