@@ -1,6 +1,6 @@
 # **Zero-shot 프롬프트 엔지니어링 기반 철강 표면 결함 분류**  
 **Zero-shot Prompt Engineering based Steel Surface Defect Classification**  
-*(SigLIP 기반 모델 + Beam Search + Ensemble을 통한 성능 향상)*
+*(SigLIP 기반 모델 + Beam Search + Ensemble을 통한 classification)*
 
 ---
 
@@ -62,8 +62,7 @@
 ![train_result](https://github.com/user-attachments/assets/ea7e801b-4dd8-4b71-a3a3-7e9fcb326f15)
 
 ### ✅ Test Set (5 클래스, 총 300장)
-- **Zero-shot + Prompt Engineering** 만으로 도메인 특화 분류 성능 확보  
-- Beam Search + Ensemble 설계만으로도 기존 supervised 모델과 경쟁 가능  
+- **Zero-shot + Prompt Engineering** 만으로 도메인 특화 분류  
 ![test_result](https://github.com/user-attachments/assets/0e61f0dd-8b8f-4e85-ad95-b7840f4a6d2c)
 
 ---
