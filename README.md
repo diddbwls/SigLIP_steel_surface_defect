@@ -1,6 +1,6 @@
 # **Zero-shot 프롬프트 엔지니어링 기반 철강 표면 결함 분류**  
 **Zero-shot Prompt Engineering based Steel Surface Defect Classification**  
-*(SigLIP 기반 모델 + Beam Search + Ensemble을 통한 classification)*
+*(SigLIP 기반 모델 + Beam Search + Ensemble을 통한  classification)*
 
 ---
 
